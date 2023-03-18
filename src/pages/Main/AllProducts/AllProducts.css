@@ -1,0 +1,11 @@
+.pagination .page-item .page-link {
+    border: none !important;
+    margin: 0.2rem;
+
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 0;
+
+}

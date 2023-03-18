@@ -1,0 +1,39 @@
+#TopDealsHeading {}
+
+.top-deals .active {
+  color: #000 !important;
+}
+
+#BestDealsCard {}
+
+.product-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: auto;
+  position: relative;
+}
+
+#ProductImg {
+  cursor: pointer;
+  min-height: auto;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+#ProductTitle {
+  margin: 1rem auto !important;
+  height: 6rem;
+  text-align: center !important;
+  width: 200px;
+  font-size: 1rem;
+}
+
+#ProductCategory {}
+
+#ProductPrice {}
